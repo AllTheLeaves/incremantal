@@ -1,0 +1,73 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+
+  margin: 0;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+body.darkTheme {
+  background-color: #181B1A;
+}
+
+body.lightTheme {
+  background-color: #D7DEDB;
+}
+
+.btnStyle {
+  text-align: center;
+  text-decoration: none;
+
+  height: 4%;
+  width: 4%;
+
+  border: 0;
+  border-radius: 0.1rem;
+}
+
+.btnStyle.darkTheme {
+  background-color: #649F85;
+
+  color: #181B1A;
+}
+
+.btnStyle.darkTheme:hover {
+  background-color: #478D6F;
+}
+
+.btnStyle.darkTheme:active {
+  background-color: #2B7A58;
+}
+
+.btnStyle.lightTheme {
+  background-color: #497763;
+
+  color: #D7DEDB;
+}
+
+.btnStyle.lightTheme:hover {
+  background-color: #335F4C;
+}
+
+.btnStyle.lightTheme:active {
+  background-color: #1C4E39;
+}
+
+.noSelect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  outline: none;
+}
