@@ -194,7 +194,7 @@ body.badTheme {
   height: 100%;
   width: 0px;
 
-  transition: width 0.2s;
+  transition: width 4s;
 }
 
 .btnBar.darkTheme {

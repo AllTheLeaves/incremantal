@@ -1,6 +1,6 @@
 barVal = {
-  HatchEggs: 0;
-  TendEggs: 0;
+  HatchEggs: 0,
+  TendEggs: 0
 }
 
 themeSelection = ["dark","light","bad"]
@@ -27,5 +27,5 @@ function chooseTheme(chosenTheme) {
 }
 
 function btnPressed(btnClicked) {
-    document.getElementById("btnBar" + btnClicked).style.width = barVal.btnClicked;
+    document.getElementById("btnBar" + btnClicked).style.width = "100%";
 }
