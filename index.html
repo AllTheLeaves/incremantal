@@ -18,7 +18,34 @@
     <script src="game.js"></script>
   </head>
   <body class="noSelect" onload="chooseTheme('dark')">
-    <button class="btnStyle noSelect" onclick="chooseTheme('dark')">Dark</button>
-    <button class="btnStyle noSelect" onclick="chooseTheme('light')">Light</button>
+    <div id="topBar">
+      <div id="logoContainer">
+        <p id="logoTxt">Incremantal</p>
+      </div>
+    </div>
+    <div id="mainContainer">
+      <div id="storyContainer" class="mainSectionStyle sectionStyle">
+        <li>
+        </li>
+      </div>
+      <div id="btnContainer" class="mainSectionStyle sectionStyle">
+        <div id="btnHatchEggs" class="btnStyle noSelect" onclick="btnPressed('HatchEggs')">
+          <div id="btnWrapHatchEggs" class="btnWrap">
+            <div id="btnBarHatchEggs" class="btnBar">
+              <div id="btnTxtHatchEggs" class="btnTxt txtStyle">Hatch Eggs</div>
+            </div>
+          </div>
+        </div>
+        <div id="btnTendEggs" class="btnStyle noSelect" onclick="btnPressed('TendEggs')">
+          <div id="btnWrapTendEggs" class="btnWrap">
+            <div id="btnBarTendEggs" class="btnBar">
+              <div id="btnTxtTendEggs" class="btnTxt txtStyle">Tend Eggs</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="btnContainer2" class="mainSectionStyle sectionStyle">
+      </div>
+    </div>
   </body>
 </html>
